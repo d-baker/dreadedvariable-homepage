@@ -1,0 +1,121 @@
+Client & university projects:
+  - title: Website for piano teacher Stephen Kerr
+    url: http://stephenkerr.com.au
+    github:
+    description: Responsive website optimised for phones, tablets and desktop computers. Uses HTML5 image responsivity technologies such as <code>img srcset</code> and <code>sizes</code> with gracefull fallbacks for older browsers (except for IE).
+    technologies: HTML5, Sass, jQuery, PHP, Google Maps API
+    year: 2015
+    todos:
+
+  - title: Lumos Candles store
+    url: http://memoriata.com/wordpress/
+    github:
+    description: Fake ecommerce store created for a university subject
+    technologies: Wordpress with WooCommerce plugin, custom Wordpress PHP and Less CSS; logo and icons created in InkScape
+    year: 2015
+    todos:
+
+
+Personal art projects:
+  - title: Audio Visualiser
+    url: http://dreadedvariable.xyz/portfolio/visualiser
+    github: https://github.com/d-baker/visualiser
+    description: Experimental psychedelic visuals to accompany a playlist of experimental & electronic music by myself and a few friends.
+    technologies: PHP to select tracks from the playlist, jQuery to analyse the audio stream and do nonsensical arithmetic with it.
+    year: 2015
+    todos:
+
+  - title: Clock
+    url: http://dreadedvariable.xyz/portfolio/react-clock
+    github: https://github.com/d-baker/react-clock
+    description: Simple 12-hour clock that displays your local time in a big font. Created as a temporary replacement for a broken wall clock, to be displayed fullscreen on a large spare monitor.
+    technologies: React.js for real-time updates.
+    year: 2016
+    todos:
+
+  - title: Art generator
+    url: http://dreadedvariable.xyz/portfolio/artgen
+    github:
+    description: Minimalist randomised geometric art in soft pastel colors.
+    technologies: jQuery
+    year: 2015
+
+  - title: NaNoGenMo 2014
+    url: http://dreadedvariable.xyz/dropbox/baroque_encodings_v1.pdf
+    github: https://github.com/d-baker/NaNoGenMo-2014
+    description: Generative fiction created for National Novel Generation Month.
+    technologies: Python
+    year: 2014
+
+  - title: Botlang
+    url: http://dreadedvariable.xyz/portfolio/botlang
+    github: https://github.com/d-baker/botlang-website
+    description: Website for a generated constructed language project based on Twitter. Includes a dictionary and translator.
+    technologies: Sass, jQuery; AJAX used to load a JSON "database" which is periodically updated by the Python backend that runs the Twitter bot.
+    year: 2014
+    todos:
+        - use Jekyll instead of AJAX to load JSON
+        - redesign the JSON to eliminate duplicate word definitions
+
+  - title: Art found in a terminal window
+    url: http://dreadedvariable.xyz/portfolio/code-art
+    github: https://github.com/d-baker/code-art
+    description: Image gallery of aesthetically pleasing bugs, error messages, etc. captured for posterity.
+    technologies: Sass, jQuery; rudimentary "lightbox" image displayer coded from scratch
+    year: 2014
+    todos:
+        - improve margins
+
+  - title: Fashionable metal bandname generator
+    url: http://dreadedvariable.xyz/portfolio/bn-generator
+    github: https://github.com/d-baker/bn-generator
+    description: My first ever generative "art" project, now continued in a cooler form by <a href="https://twitter.com/bandname_exe">@bandname_exe</a> on Twitter.
+    technologies: underscore.js for easy randomisation
+    year: 2013
+    todos:
+        - improve footer
+        - figure out how underscore works again and possibly improve the javascript
+
+
+Twitter bots:
+  - title: unconfusion bot
+    url: https://twitter.com/tempntime_bot
+    github: https://github.com/d-baker/bots/tree/master/unconfusionbot
+    description: Tweet at this bot (using the correct syntax) to find out the date, time and temperature anywhere in the world. Also regularly tweets the time in a randomly chosen city with the time printed using either random emoji or emoji appropriate to the current weather in that city.
+    technologies: python, Twitter API, GeoNames API
+    year: 2014
+    todos: 
+    embed: !xml |
+           <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/inky">@inky</a> Llanfairpwllgwyngyll: 2014-09-28, 12:41 PM / 18°C</p>&mdash; unconfusion bot (@tempntime_bot)<a href="https://twitter.com/tempntime_bot/status/516190889509523456">September 28, 2014</a></blockquote>
+
+  - title: once upon a quine
+    url: https://twitter.com/onceuponaquine
+    github: https://github.com/d-baker/bots/tree/master/metabot
+    description: A bot that very slowly tweets its own source code line by line
+    technologies: python, Twitter API
+    year: 2014
+    todos:
+        - it never did start tweeting itself from the beginning again...
+        - rename this repo directory
+    embed: !xml |
+           <blockquote class="twitter-tweet" lang="en"><p>import twitter</p>&mdash; once upon a quine (@onceuponaquine) <a href="https://twitter.com/onceuponaquine/status/547408790547480576">December 23, 2014</a></blockquote>
+
+  - title: seascape.py
+    url: https://twitter.com/seascape_py
+    github: https://github.com/d-baker/bots/tree/master/seascape
+    description: Seascapes generated with emoji
+    technologies: python, Twitter API
+    year: 2016
+    todos:
+    embed: <blockquote class="twitter-tweet" lang="en"><p>. 🌕 <br>* ✧. ✧ <br>~~〜~~~〜〜~〜~〜~~~~~~~~<br>~~~~~〜~〜~~~~~〜〜〜~~~~<br>~〜~〜~~~~〜~~🐬~~〜~~~〜~<br>〜~~🐟~~~〜~~~~~〜~~〜〜~~</p>&mdash; seascape.py (@seascape_py) <a href="https://twitter.com/seascape_py/status/721849579163889665">17 April 2016</a></blockquote>
+
+  - title: botlang
+    url: https://twitter.com/botlang
+    github: https://github.com/d-baker/bots/tree/master/botlang
+    description: A bot creating its own constructed language and defining new words based on what you tweet at it.
+    technologies: python, Twitter API, <a href="http://www.clips.ua.ac.be/pages/pattern-en">pattern.en</a>
+    year: 2014
+    todos:
+        - restart this bot as reply-only
+    embed: !xml |
+           <blockquote class="twitter-tweet" lang="en"><p>luni (noun): journey</p>&mdash; botlang (@botlang) <a href="https://twitter.com/botlang/status/535023347206090752">November 19, 2014</a></blockquote>

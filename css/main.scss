@@ -1,0 +1,172 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+body {
+	font-family: "Andale Mono", "Source Code Pro", "Verdana", sans-serif;
+	line-height: 1.5em;
+	margin: 30px auto;
+	max-width: 700px;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+.category {
+	padding: 0;
+}
+
+ul.category > li {
+	margin: 50px 0px;
+}
+
+.todos {
+	list-style-type: square;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.subheading {
+	font-weight: bold;
+}
+
+h2 {
+	display: inline;
+}
+
+.github {
+	font-size: 1.2em;
+	display: inline;
+	margin-left: 10px;
+	&:before {
+		content: "[";
+	}
+	&:after {
+		content: "]";
+	}
+}
+
+a {
+	text-decoration: none;
+
+	&:visited {
+	}
+}
+
+footer {
+	border-top: 1px solid grey;
+	padding-top: 10px;
+}
+
+/**************************************************************/
+
+$highlight: #1e6ea7;
+$secondary: #d33682;
+$text: #121212;
+$bg: #eeeeee;
+$neutral: #444;
+
+$sansfont: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+html, body {
+    background: $bg;  /* base03 */
+}
+body {
+    color: $text;  /* base0 */
+    font: 1em/1.5 Charter, Georgia, serif;
+}
+h1, h2, h3 {
+    font-family: $sansfont;
+}
+
+
+h2 + h3, hr + h3 {
+    border-top-width: 0;
+    padding-top: 0;
+}
+a:link, a:visited {
+    color: $highlight;  /* blue */
+    font-style: normal;
+}
+a:hover {
+    color: $secondary;  /* magenta */
+}
+pre, code {
+    color: $neutral;  /* base01 */
+}
+blockquote {
+    color: $neutral;  /* base01 */
+    font-style: italic;
+    margin: 0 0 0 2em;
+}
+blockquote i,
+blockquote em,
+i i, i em, em i, em em {
+    font-style: normal;
+}
+hr {
+    border-width: 0;
+	padding-top: .4em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.site-title {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: $sansfont;
+    font-weight: bold;
+    border-bottom: 2px dashed $highlight;
+	
+	&:hover {
+		color: $highlight;
+	}
+}
+
+h1 {
+	color: $highlight;
+	padding: 0;
+	margin-top: 1.5em;
+	background: none;
+}
+
+ul.h2 {
+    font-weight: 200;
+    font-size: 1.2em;
+    a {
+        color: $text;
+        &:hover {
+            color: $highlight;
+        }
+    }
+}
+
+h1 {
+    background: $neutral;  /* base01 */
+    color: $bg;  /* base03 */
+    font-weight: 700;
+    margin-top: 2.25em;
+    padding: 0.25em;
+}
+
+h2 {
+    color: $highlight;
+    border-bottom: 2px dashed $highlight;  /* base01 */
+    font-size: 1.25em;
+    margin-bottom: 1.5em;
+    padding-top: 0.75em;
+    text-transform: uppercase;
+}
+h3 {
+    color: $highlight;
+    font-size: 1em;
+    border-bottom: 1px dashed $highlight;  /* base01 */
+    text-transform: lowercase;
+}
+

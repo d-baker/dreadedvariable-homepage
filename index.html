@@ -1,0 +1,53 @@
+---
+layout: default
+title: links
+---
+
+<header>
+    <p class="site-title">Portfolio</p>
+    <p>These are the projects I'm most proud of or feel I've learnt the most from. This list serves as both a sort of resume, and as a reminder of work left to do on particular projects (see the TODOs heading where applicable).</p>
+</header>
+
+{% for category in site.data.links %}
+
+    <div class="textblock" id="{{ category[0] }}">
+        <h1>{{ category[0] }}</h1>
+
+        <ul class="category">
+
+        {% for link in category[1] %}
+            <li>
+                <a href="{{ link.url }}"><h2 class="projTitle">{{ link.title }}</h2></a>
+                {% if link.github %} <p class="github"> <a href={{ link.github }}>Github</a> </p> {% endif %}
+
+                {{ link.embed }}
+
+                <div class="info">
+                    {% if link.description %} <p class="descrip"><span class="subheading">Description:</span> {{ link.description }}</p> {% endif %}
+                    {% if link.technologies %} <p class="technologies"><span class="subheading">Technologies:</span> {{ link.technologies }}</p> {% endif %}
+                    {% if link.year %} <p class="date"><span class="subheading">Year:</span> {{ link.year }}</p> {% endif %}
+
+                    {% if link.todos %}
+                        <p class="subheading">TODOs:</p>
+                    {% endif %}
+
+                    <ul class="todos">
+                        {% for todo in link.todos %}
+                            <li>{{ todo }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </li>
+        {% endfor %}
+
+        </ul>
+
+    </div>
+
+{% endfor %}
+
+<footer>
+    <p>This site was created using the wonderful <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+    <p> Check out my other (similarly Jekyllicious) sites: <a href="http://memoriata.com">memoriata.com</a> and <a href="http://nightmare.website">nightmare.website</a>.</p>
+</footer>
