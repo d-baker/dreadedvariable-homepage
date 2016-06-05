@@ -11,10 +11,6 @@ body {
 	max-width: 700px;
 }
 
-h1 {
-	margin-top: 2.25em;
-}
-
 .category {
 	padding: 0;
 }
@@ -129,9 +125,6 @@ hr {
 	}
 }
 
-h1 {
-	color: $highlight;
-}
 
 ul.h2 {
     font-weight: 200;
@@ -145,6 +138,7 @@ ul.h2 {
 }
 
 h1 {
+	margin-top: 2.25em;
     background: $neutral;  /* base01 */
     color: $bg;  /* base03 */
     font-weight: 700;
