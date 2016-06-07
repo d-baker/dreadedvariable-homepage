@@ -30,7 +30,7 @@ Personal art projects:
     url: http://dreadedvariable.xyz/portfolio/react-clock
     github: https://github.com/d-baker/react-clock
     description: Simple 12-hour clock that displays your local time in a big font. Created as a temporary replacement for a broken wall clock, to be displayed fullscreen on a large spare monitor.
-    technologies: React.js for real-time updates.
+    technologies: React.js for real-time updates, moment.js (awesome time/date library)
     year: 2016
     todos:
 
